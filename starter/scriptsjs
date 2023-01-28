@@ -11,11 +11,13 @@ var item = $('.item');
 
 ///save to local storage
 function saveItem() {
-    localStorage.storelist = document.getElementById("item").innerHTML;
+    var userInput = localStorage.getItem(".userInput")
+    userInputSpan.textContent = userInput;
+    // localStorage.storelist = document.getElementById("item").innerHTML;
 }
 
 //save all the event
-function saveButton() {
+function ClikedButton() {
     var item = userInputEl.value.trim();
     console.log(item);
     saveBtnEl.onclick = localStorage.setItem("item", JSON.stringify(item));
