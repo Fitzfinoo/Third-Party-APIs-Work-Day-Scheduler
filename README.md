@@ -38,9 +38,9 @@ The following animation demonstrates the application functionality:
 
 ## Usage
 
-<a href="https://github.com/Fitzfinoo/WK7-Third-Party-APIs-Work-Day-Scheduler"> Respo Link </a>
+<a href="https://github.com/Fitzfinoo/Third-Party-APIs-Work-Day-Scheduler"> Respo Link </a>
 
-<a href="https://fitzfinoo.github.io/WK7-Third-Party-APIs-Work-Day-Scheduler/"> Live Link </a>
+<a href="https://fitzfinoo.github.io/Third-Party-APIs-Work-Day-Scheduler/"> Live Link </a>
 
 ## Credits
 Thanks to edx bootcamp team for providing starter code and mockup.
