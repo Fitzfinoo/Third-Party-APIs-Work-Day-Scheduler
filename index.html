@@ -18,17 +18,18 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"
     />
+    
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    
+
     <link rel="stylesheet" href="./starter/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -40,202 +41,71 @@
       <p id="currentDay" class="lead"></p>
       <div id="currentTime"></div>
     </header>
+
+
 <!-- Add the timeblock  -->
-<div class = "container" spellcheck="false">
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  0 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  1 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  2 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  3 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>  
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  4 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  5 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-
-
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  6 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-
-
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  7 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-
-
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  8 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-
-  <div class = "row my-row">
-    <div class = "col-a1" id = "9">  9 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id="saveBtn"> 
-  </div>
-
-  <div class = "row my-row" >
-      <div class = "col-a1" id = "10"> 10 am </div>
-      <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-      <ul class="item" id="item"></ul>
-      <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-  </div>
-
-  <div class = "row my-row" >
-    <div class = "col-a1" id = "10"> 11 am </div>
-    <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-    <ul class="item" id="item"></ul>
-    <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>  
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 12 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 1 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 2 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 3 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 4 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 5 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 6 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 7 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 8 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 9 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 10 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-<div class = "row my-row" >
-  <div class = "col-a1" id = "10"> 11 pm </div>
-  <input type ="text" value="" class = "col-9" id="userInput" name="userInput" placeholder="" style="block"> 
-  <ul class="item" id="item"></ul>
-  <input type ="button" value="save" onclick="" class = "col-a1" id=saveBtn> 
-</div>
-
-
-    </div>
+    <!-- </div> -->
     <div class="container">
       <!-- Timeblocks go here -->
+      <div id="9" class="row time-block">
+        <div class="col-2 hour">9AM</div>
+        <textarea class="col-9 description"></textarea> 
+        <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x""></i></button>
     </div>
+
+    <div id="10" class="row time-block">
+      <div class="col-2 hour">  10AM  </div>
+      <textarea class="col-9 description"></textarea> 
+      <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x""></i></button>
+  </div>
+
+  <div id="11" class="row time-block">
+    <div class="col-2 hour">  11AM  </div>
+    <textarea class="col-9 description"></textarea> 
+    <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x""></i></button>
+</div>
+
+<div id="12" class="row time-block">
+  <div class="col-2 hour">  12PM  </div>
+  <textarea class="col-9 description"></textarea> 
+  <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x""></i></button>
+</div>
+
+
+<div id="13" class="row time-block">
+  <div class="col-2 hour">  1PM  </div>
+  <textarea class="col-9 description"></textarea> 
+  <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x""></i></button>
+</div>
+
+<div id="14" class="row time-block">
+  <div class="col-2 hour">  2PM  </div>
+  <textarea class="col-9 description"></textarea> 
+  <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x""></i></button>
+</div>
+
+<div id="15" class="row time-block">
+  <div class="col-2 hour">  3PM  </div>
+  <textarea class="col-9 description"></textarea> 
+  <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x""></i></button>
+</div>
+
+<div id="16" class="row time-block">
+  <div class="col-2 hour">  4PM  </div>
+  <textarea class="col-9 description"></textarea> 
+  <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x"></i></button>
+</div>
+
+
+<div id="17" class="row time-block">
+  <div class="col-2 hour">  5PM  </div>
+  <textarea class="col-9 description"></textarea> 
+  <button class="btn saveBtn"><i class="fa-solid fa-floppy-disk fa-2x"></i></button>
+</div>
+
+
+
+    
 
     <script src="./starter/scriptsjs"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
